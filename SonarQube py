@@ -1,0 +1,4 @@
+sonar.projectKey=SonarQube-py-project
+sonar.projectName=SonarQube-python-project
+sonar.projectVersion=1.e
+sonar.sources=C:\Users\Ajay kumar\Desktop\SonarQube-python-project\main.py
