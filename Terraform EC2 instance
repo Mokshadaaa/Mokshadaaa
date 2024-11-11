@@ -7,3 +7,13 @@ resource "aws_instance" "terraform_instance" {
   ami           = "<AMI KEY>"
   instance_type = "t2.micro"
 }
+
+if needed:
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"  # Use the latest version compatible with Terraform
+    }
+  }
+}
